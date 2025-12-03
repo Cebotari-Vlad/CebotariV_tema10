@@ -1,0 +1,20 @@
+
+2.Ele sunt stockate si importate din fisiere
+
+6.Răspundeți la următoarele întrebări
+ a)Utilizați pentru texturare imagini cu transparență și fără. Ce observați?
+ 	Când folosești imagini cu transparență, obiectul este mai integrat in scena iar cand utilizam fara transparenta marginile par mai "dure" si fundalul imaginii este vizibil.
+ 	
+ 	
+b)Ce formate de imagine pot fi aplicate în procesul de texturare în
+OpenGL?
+	Orice format de imagine care este încarcat în memorie și convertit într-un format de date Raw(brut)
+	Putem utiliza:
+	PNG,JPEG,GIF,BMP,TGA etc 
+c)Specificați ce se întâmplă atunci când se modifică culoarea (prin
+manipularea canalelor RGB) obiectului texturat?
+	Culoarea finală va fi formata din valoarea texturii și culoarea aplicată
+
+d)Ce deosebiri există între scena ce utilizează obiecte texturate în modul
+iluminare activat, respectiv dezactivat?
+Rezultatul final combină culoarea texturii cu efectul luminii.
